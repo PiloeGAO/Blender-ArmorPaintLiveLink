@@ -15,14 +15,13 @@ Download latest version of Blender (v. 2.80 minimum) and the latest version of A
 
 ### Installing
 
-1. Clone the repository
-2. Inside of Blender, Edit > Preferences... > Add-ons (Tab) > install.. the armorpaint_livelink.py file
-3. Turn on the addon
-4. Add the ArmorPaint path
-5. Enable "Custom Project Path" if you won't to save the .arm and the .blend in the same directory
-6. Add the Project Folder Path if Custom Project Path is enable
-7. Select your object (he need to be unwrapped) and click on the "Paint Selected" button inside the "ArmorPaint" tab (3D View).
-8. Paint your models and have fun!
+1. Clone the repository  
+2. Inside of Blender, *Edit > Preferences... > Add-ons (Tab) > install..* the armorpaint_livelink.py file  
+3. Turn on the addon  
+4. Add the ArmorPaint executable path in the "ArmorPaint Executable" field  
+5. In the 3D View, open the panel side (*N* shortcut) and locate the project directory  (folder where your Arm file and textures will be saved)  
+6. Select your object  (he needs to be unwrapped) and click on the "Open in ArmorPaint" to edit it inside of ArmorPaint  (* Optionnal:You can use a custom arm name instead of the object name - example: Use "MyBeautifullCube.arm" for the "Cube" object instead of "Cube.arm"*)  
+7. When the texturing process is done, export your textures to a subdirectory called "exports" (* Optionnal: You can also use a custom directory for your textures - example: "/highdefTextures/"*)
 
 ## Contributing
 
@@ -32,6 +31,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 ## Authors
 
 * **Léo DEPOIX** - *Initial work* - [PiloeGAO](https://github.com/PiloeGAO)
+* **Spirou4D** - *Code fix* - [Spirou4D](https://github.com/Spirou4D)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
