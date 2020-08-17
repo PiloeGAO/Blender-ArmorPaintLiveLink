@@ -2,10 +2,13 @@
 
 This addon is the current implementation of live link for [ArmorPaint](armorpaint.org) inside of Blender 2.8+
 
-![](addon_properties.png) &nbsp;
-**Figure 1** - Addon Properties
-![](UI.png) &nbsp;
-**Figure 2** - Addon tab in the 3D View
+![](addon_properties.png)  
+
+**Figure 1** - Addon Properties  
+
+![](UI.png)  
+
+**Figure 2** - Addon tab in the 3D View  
 
 ## Getting Started
 
@@ -22,6 +25,12 @@ Download latest version of Blender (v. 2.80 minimum) and the latest version of A
 5. In the 3D View, open the panel side (*N* shortcut) and locate the project directory  (folder where your Arm file and textures will be saved)  
 6. Select your object  (he needs to be unwrapped) and click on the "Open in ArmorPaint" to edit it inside of ArmorPaint  (* Optionnal:You can use a custom arm name instead of the object name - example: Use "MyBeautifullCube.arm" for the "Cube" object instead of "Cube.arm"*)  
 7. When the texturing process is done, export your textures to a subdirectory called "exports" (* Optionnal: You can also use a custom directory for your textures - example: "/highdefTextures/"*)
+
+## Feature Request
+
+Your project as a special needed?
+
+Please add your request in "Issues", we will looking for it as fast as possible!
 
 ## Contributing
 
