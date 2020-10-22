@@ -23,7 +23,7 @@ bl_info = {
     "name": "ArmorPaint Live-Link",
     "author": "PiloeGAO (Leo DEPOIX), Spirou4D",
     "version": (1, 1, 0),
-    "blender": (2, 80, 0),
+    "blender": (2, 83, 0),
     "location": "3D View > Side Bar",
     "description": "Integration of ArmorPaint into Blender Workflow",
     "warning": "Development",
