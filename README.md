@@ -41,7 +41,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 * **Léo DEPOIX** - *Initial work* - [PiloeGAO](https://github.com/PiloeGAO)
 * **Spirou4D** - *Code fix* - [Spirou4D](https://github.com/Spirou4D)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/PiloeGAO/Blender-ArmorPaintLiveLink/graphs/contributors) who participated in this project.
 
 ## License
 
