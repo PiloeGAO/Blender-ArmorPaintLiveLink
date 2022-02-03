@@ -4,14 +4,6 @@
 
 This addon is the current implementation of live link for [ArmorPaint](http://www.armorpaint.org) inside of Blender 2.8+
 
-![](addon_properties.png)  
-
-**Figure 1** - Addon Properties  
-
-![](UI.png)  
-
-**Figure 2** - Addon tab in the 3D View  
-
 ## Getting Started
 
 ### Prerequisites
@@ -47,7 +39,7 @@ Also, fixes for self-compiled versions are not allowed, we only target ArmorPain
 
 ## License
 
-This project is licensed under the GNU GPLv3 License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the GNU GPLv3 License - see the [LICENSE.md](LICENSE) file for details.
 
 ## Donation
 
