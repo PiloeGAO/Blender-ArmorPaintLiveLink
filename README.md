@@ -1,6 +1,8 @@
 # Blender ArmorPaint Livelink
 
-This addon is the current implementation of live link for [ArmorPaint](armorpaint.org) inside of Blender 2.8+
+*The project is not under active development, fix updates are made as soon as possible (please consider [donating](https://github.com/PiloeGAO/Blender-ArmorPaintLiveLink#Donation) for faster updates)*
+
+This addon is the current implementation of live link for [ArmorPaint](http://www.armorpaint.org) inside of Blender 2.8+
 
 ![](addon_properties.png)  
 
@@ -14,7 +16,7 @@ This addon is the current implementation of live link for [ArmorPaint](armorpain
 
 ### Prerequisites
 
-Download latest version of Blender (v. 2.80 minimum) and the latest version of ArmorPaint.
+Download latest version of Blender (v. 2.80 minimum) and ArmorPaint V0.8.
 
 ### Installing
 
@@ -34,14 +36,14 @@ Please add your request in "Issues", we will looking for it as fast as possible!
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Contributions are encouraged, but the code need to stay clear and organized.
+Also, fixes for self-compiled versions are not allowed, we only target ArmorPaint official builds for now.
 
 ## Authors
 
-* **Léo DEPOIX** - *Initial work* - [PiloeGAO](https://github.com/PiloeGAO)
-* **Spirou4D** - *Code fix* - [Spirou4D](https://github.com/Spirou4D)
-
-See also the list of [contributors](https://github.com/PiloeGAO/Blender-ArmorPaintLiveLink/graphs/contributors) who participated in this project.
+* **[PiloeGAO](https://github.com/PiloeGAO)** - *Initial work*
+* **[Spirou4D](https://github.com/Spirou4D)** - *Code fix*
+* **[tobiasBora](https://github.com/tobiasBora)** - *Temporary directory fix*
 
 ## License
 
