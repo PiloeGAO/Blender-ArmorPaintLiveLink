@@ -1,4 +1,4 @@
-# -*- coding: utf8 -*-
+# -*- coding: utf-8 -*-
 # python
 # ##### BEGIN GPL LICENSE BLOCK #####
 #
@@ -31,7 +31,7 @@ bl_info = {
     "tracker_url": "https://github.com/PiloeGAO/Blender-ArmorPaintLiveLink/issues",
     "category": "Paint"}
 
-import bpy, os, subprocess, platform
+import bpy, os, subprocess, platform, tempfile
 from bpy.types import (Operator,
                         Panel,
                         AddonPreferences, 
@@ -310,12 +310,8 @@ class ArmorPaintLivelinkOperator(Operator):
             # Launch ArmorPaint with the last edit of the object
             subprocess.Popen([path_exe,armFilepath])
         else:
-            # Generating Paths for each OS
-            if SYSTEM == "Darwin":
-                #Darwin need another path because you can't write inside of an application directory 
-                path_tmp = os.path.expanduser("~") + SEP + "tmp.obj"
-            else:
-                path_tmp = path_dir + SEP + "data"+ SEP + "tmp.obj"
+            # Create a temporary file to store the .obj
+            path_tmp = tempfile.mkstemp(suffix=".obj")[1]
         
             # Export current object as obj and open it in armorpaint
             # Export the object as Obj and save it in the correct directory
