@@ -311,11 +311,13 @@ class ArmorPaintLivelinkOperator(Operator):
             subprocess.Popen([path_exe,armFilepath])
         else:
             # Create a temporary file to store the .obj
-            path_tmp = tempfile.mkstemp(suffix=".obj")[1]
+            path_tmp = tempfile.NamedTemporaryFile(suffix=".obj", dir=projP, delete=False)
+            path_tmp_name = path_tmp.name
+            path_tmp.close()
         
             # Export current object as obj and open it in armorpaint
             # Export the object as Obj and save it in the correct directory
-            bpy.ops.export_scene.obj(filepath=path_tmp,
+            bpy.ops.export_scene.obj(filepath=path_tmp_name,
                                     check_existing=True,
                                     axis_forward='-Z',
                                     axis_up='Y',
@@ -340,7 +342,7 @@ class ArmorPaintLivelinkOperator(Operator):
                                     path_mode='AUTO')
 
             #Launch ArmorPaint
-            subprocess.Popen([path_exe,path_tmp])
+            subprocess.Popen([path_exe,path_tmp_name])
             
             objM["armorpaint_proj_dir"] = os.path.realpath(bpy.path.abspath(projP))
             objM["armorpaint_filename"] = str(objN) + ".arm"
